@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from ALP4 import *
 import SLMlayout
 # Load the Vialux .dll
-DMD = ALP4(version = '4.3', libDir= './')#, libDir = 'E:/ALP-4.3/ALP-4.3 API')
+DMD = ALP4(version = '4.3', libDir= './')
 # Initialize the device
 DMD.Initialize()
 # Get the resolution of the DMD
